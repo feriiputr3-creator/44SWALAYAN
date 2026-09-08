@@ -1,6 +1,14 @@
 {
-  "name": "44SWALAYAN",
-  "description": "Sistem Inventaris, Pengingat Expired & Stok Opname Real-Time",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "version": "1.0",
+  "updatedAt": "2026-09-08T16:37:55.401Z",
+  "databases": [
+    {
+      "id": "v2",
+      "name": "Database Lama (Ada Data)"
+    },
+    {
+      "id": "v3",
+      "name": "Database Baru (Kosong)"
+    }
+  ]
 }
