@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-08T16:37:55.401Z",
+  "updatedAt": "2026-09-11T14:57:57.380Z",
   "databases": [
     {
       "id": "v2",
@@ -10,5 +10,57 @@
       "id": "v3",
       "name": "Database Baru (Kosong)"
     }
-  ]
+  ],
+  "inventoryData": {
+    "v2": {
+      "products": [],
+      "logs": [],
+      "notifications": [],
+      "settings": {
+        "storeName": "Toko Berkah Mart Ritel",
+        "storeAddress": "Jl. Pemuda No. 88, Jakarta",
+        "storePhone": "021-555-8989",
+        "categories": [
+          "Makanan & Minuman",
+          "Susu & Produk Olahan",
+          "Roti & Kue",
+          "Obat & Farmasi",
+          "Kosmetik & Perawatan",
+          "Bumbu & Bahan Dapur",
+          "Frozen Food & Daging",
+          "Snack & Biskuit",
+          "Lainnya"
+        ],
+        "locations": [
+          "Rak A1",
+          "Rak B2",
+          "Chiller Utama",
+          "Chiller Minuman",
+          "Etalase Depan",
+          "Gudang Belakang"
+        ],
+        "users": [
+          {
+            "id": "u1",
+            "name": "Admin",
+            "pin": "123456",
+            "role": "admin"
+          },
+          {
+            "id": "u2",
+            "name": "Staff",
+            "pin": "111111",
+            "role": "staff"
+          }
+        ],
+        "criticalDaysThreshold": 7,
+        "warningDaysThreshold": 30,
+        "soundEnabled": true,
+        "autoCheckIntervalSeconds": 30,
+        "browserNotificationsEnabled": false
+      },
+      "opnameSessions": [],
+      "updatedAt": "2026-09-11T14:57:57.376Z"
+    }
+  }
 }
